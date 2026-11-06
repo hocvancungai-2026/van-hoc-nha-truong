@@ -1,5 +1,5 @@
 // Nội dung chuyên đề — chuyển từ tệp BaoCao_BoiDuongHSG_NguVan_THPT.docx
-export type Section = { id: string; num: string; title: string; html: string }
+import type { Section } from '../../components/Article'
 
 export const sections: Section[] = [
   {

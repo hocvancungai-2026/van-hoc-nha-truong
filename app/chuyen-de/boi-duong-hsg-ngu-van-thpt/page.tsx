@@ -1,5 +1,5 @@
 import type { Metadata } from 'next'
-import Link from 'next/link'
+import Article from '../../components/Article'
 import { sections } from './content'
 
 export const metadata: Metadata = {
@@ -9,29 +9,11 @@ export const metadata: Metadata = {
 
 export default function Page() {
   return (
-    <article className="container article">
-      <Link href="/#chuyen-de" className="back">← Chuyên đề</Link>
-      <header className="article-head">
-        <div className="eyebrow">Chuyên đề · Bồi dưỡng học sinh giỏi</div>
-        <h1>Chuyên đề bồi dưỡng học sinh giỏi môn Ngữ văn THPT</h1>
-        <p className="lede">Tài liệu tham khảo dành cho giáo viên và học sinh ôn thi học sinh giỏi.</p>
-      </header>
-
-      <nav className="toc" aria-label="Nội dung chính">
-        <div className="toc-label">Nội dung chính</div>
-        {sections.map(s => (
-          <a key={s.id} href={`#${s.id}`}><b>{s.num}</b><span>{s.title}</span></a>
-        ))}
-      </nav>
-
-      {sections.map(s => (
-        <section key={s.id} id={s.id} className="prose-section">
-          <h2><span className="num">{s.num}</span>{s.title}</h2>
-          <div className="prose" dangerouslySetInnerHTML={{ __html: s.html }} />
-        </section>
-      ))}
-
-      <Link href="/#chuyen-de" className="back">← Về trang chủ</Link>
-    </article>
+    <Article
+      eyebrow="Chuyên đề · Bồi dưỡng học sinh giỏi"
+      title="Chuyên đề bồi dưỡng học sinh giỏi môn Ngữ văn THPT"
+      lede="Tài liệu tham khảo dành cho giáo viên và học sinh ôn thi học sinh giỏi."
+      sections={sections}
+    />
   )
 }

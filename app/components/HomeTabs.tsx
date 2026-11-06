@@ -18,6 +18,13 @@ const chuyenDe = [
     excerpt: 'Phương pháp luận nghị luận văn học, năm nguyên tắc đưa lí luận văn học vào bài văn, hệ thống chuyên đề văn học trọng tâm và phương pháp nghị luận xã hội.',
     meta: '5 phần',
   },
+  {
+    href: '/chuyen-de/van-hoc-trung-dai-x-xix-hsg',
+    tag: 'Văn học trung đại · HSG',
+    title: 'Văn học Việt Nam thời trung đại (thế kỷ X – hết thế kỷ XIX)',
+    excerpt: 'Các giai đoạn phát triển, văn học chữ Hán và chữ Nôm, cảm hứng yêu nước – nhân đạo, thi pháp trung đại và định hướng làm bài cho học sinh giỏi.',
+    meta: '6 phần',
+  },
 ]
 
 function Empty({ text }: { text: string }) {
