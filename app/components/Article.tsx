@@ -21,12 +21,14 @@ export default function Article({
 
       {introHtml && <div className="prose intro" dangerouslySetInnerHTML={{ __html: introHtml }} />}
 
+      {sections.length > 0 && (
       <nav className="toc" aria-label="Nội dung chính">
         <div className="toc-label">Nội dung chính</div>
         {sections.map(s => (
           <a key={s.id} href={`#${s.id}`}><b>{s.num}</b><span>{s.title}</span></a>
         ))}
       </nav>
+      )}
 
       {sections.map(s => (
         <section key={s.id} id={s.id} className="prose-section">

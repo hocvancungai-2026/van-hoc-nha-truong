@@ -45,6 +45,13 @@ const thamKhao = [
     excerpt: 'Về thế giới nghệ thuật thơ Nguyễn Duy: từ cái “quê” trong thơ, những chiếc kim la bàn của một đời thơ đến lục bát điệu nói và cây đàn hương hoả.',
     meta: 'Bài phê bình · 5 phần',
   },
+  {
+    href: '/tham-khao/tran-le-son-y-cong-an-thi-ca',
+    tag: 'Phê bình thơ · Du Tử Lê',
+    title: 'Trần Lê Sơn Ý: Những công-án-thi-ca không giải đáp?',
+    excerpt: 'Du Tử Lê đọc thơ Trần Lê Sơn Ý, nhà thơ trẻ sinh năm 1977: những câu thơ “rất trong”, “rất tươi” và những “công-án-thơ” mở ra nhiều tầng liên tưởng.',
+    meta: 'Bài phê bình',
+  },
 ]
 
 export default function HomeTabs() {
