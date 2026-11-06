@@ -1,3 +1,4 @@
+/* eslint-disable @next/next/no-html-link-for-pages -- liên kết #tab cần thẻ <a> thường để sự kiện hashchange hoạt động */
 
 export default function Footer() {
   return (

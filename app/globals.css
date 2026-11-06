@@ -127,3 +127,12 @@ a { color: inherit; text-decoration: none; }
 .de-body small { display: block; font-family: var(--sans); font-size: 12.5px; color: var(--ink-soft); line-height: 1.5; margin-top: 4px; }
 .pager { display: flex; justify-content: space-between; gap: 16px; font-family: var(--sans); font-size: 14px; font-weight: 600; color: var(--accent); margin: 8px 0 20px; padding-top: 20px; border-top: 1px solid var(--border); }
 @media (max-width: 640px) { .de-link { flex-direction: column; align-items: flex-start; gap: 10px; } }
+
+/* ===== Tham khảo ===== */
+.intro { margin-bottom: 28px; }
+.photo { margin: 18px 0 0; text-align: center; }
+.photo img { max-width: 100%; height: auto; border: 1px solid var(--border); }
+.photo figcaption { font-family: var(--sans); font-size: 13px; color: var(--ink-muted); margin-top: 8px; }
+.source-note { border-top: 1px solid var(--border); padding-top: 16px; margin: 8px 0 24px; font-family: var(--sans); font-size: 14px; color: var(--ink-soft); }
+.source-note p { margin-bottom: 4px; }
+.source-note .author { font-family: var(--serif); font-weight: 700; font-size: 16px; color: var(--ink); text-align: right; }

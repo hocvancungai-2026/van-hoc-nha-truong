@@ -5,10 +5,10 @@ export type Section = { id: string; num: string; title: string; html: string }
 export type Pager = { prev?: { href: string; label: string }; next?: { href: string; label: string } }
 
 export default function Article({
-  eyebrow, title, lede, sections, backHref = '/#chuyen-de', backLabel = 'Chuyên đề', pager,
+  eyebrow, title, lede, sections, backHref = '/#chuyen-de', backLabel = 'Chuyên đề', pager, introHtml, outroHtml,
 }: {
   eyebrow: string; title: string; lede: string; sections: Section[]
-  backHref?: string; backLabel?: string; pager?: Pager
+  backHref?: string; backLabel?: string; pager?: Pager; introHtml?: string; outroHtml?: string
 }) {
   return (
     <article className="container article">
@@ -18,6 +18,8 @@ export default function Article({
         <h1>{title}</h1>
         <p className="lede">{lede}</p>
       </header>
+
+      {introHtml && <div className="prose intro" dangerouslySetInnerHTML={{ __html: introHtml }} />}
 
       <nav className="toc" aria-label="Nội dung chính">
         <div className="toc-label">Nội dung chính</div>
@@ -32,6 +34,8 @@ export default function Article({
           <div className="prose" dangerouslySetInnerHTML={{ __html: s.html }} />
         </section>
       ))}
+
+      {outroHtml && <div className="prose outro" dangerouslySetInnerHTML={{ __html: outroHtml }} />}
 
       {pager && (
         <div className="pager">

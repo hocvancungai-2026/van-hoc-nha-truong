@@ -37,14 +37,15 @@ const luyenDe = [
   },
 ]
 
-function Empty({ text }: { text: string }) {
-  return (
-    <div className="empty">
-      <div className="empty-mark">✦</div>
-      <p>{text}</p>
-    </div>
-  )
-}
+const thamKhao = [
+  {
+    href: '/tham-khao/nguyen-duy-thi-si-thao-dan',
+    tag: 'Phê bình thơ · Chu Văn Sơn',
+    title: 'Nguyễn Duy thi sĩ thảo dân',
+    excerpt: 'Về thế giới nghệ thuật thơ Nguyễn Duy: từ cái “quê” trong thơ, những chiếc kim la bàn của một đời thơ đến lục bát điệu nói và cây đàn hương hoả.',
+    meta: 'Bài phê bình · 5 phần',
+  },
+]
 
 export default function HomeTabs() {
   const [active, setActive] = useState<TabId>('chuyen-de')
@@ -107,7 +108,18 @@ export default function HomeTabs() {
           ))}
         </div>
       )}
-      {active === 'tham-khao' && <Empty text="Kho tài liệu tham khảo đang được cập nhật." />}
+      {active === 'tham-khao' && (
+        <div className="card-grid">
+          {thamKhao.map(c => (
+            <Link key={c.href} href={c.href} className="card">
+              <div className="card-tag">{c.tag}</div>
+              <h3>{c.title}</h3>
+              <p>{c.excerpt}</p>
+              <div className="card-meta">{c.meta} · Đọc bài →</div>
+            </Link>
+          ))}
+        </div>
+      )}
     </section>
   )
 }
