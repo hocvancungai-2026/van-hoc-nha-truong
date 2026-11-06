@@ -4,8 +4,8 @@ import Header from './components/Header'
 import Footer from './components/Footer'
 
 export const metadata: Metadata = {
-  title: 'Học Văn Cùng Ai – Tư liệu & Giảng dạy Ngữ văn THPT',
-  description: 'Cổng thông tin giảng dạy và học tập Ngữ văn THPT.',
+  title: 'Học Văn Cùng Ai – Văn học và nhà trường',
+  description: 'Văn học và nhà trường: chuyên đề, luyện đề và tài liệu tham khảo Ngữ văn THPT.',
 }
 
 export default function RootLayout({ children }: { children: React.ReactNode }) {
