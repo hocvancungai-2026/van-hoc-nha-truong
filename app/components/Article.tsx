@@ -2,12 +2,17 @@ import Link from 'next/link'
 
 export type Section = { id: string; num: string; title: string; html: string }
 
+export type Pager = { prev?: { href: string; label: string }; next?: { href: string; label: string } }
+
 export default function Article({
-  eyebrow, title, lede, sections,
-}: { eyebrow: string; title: string; lede: string; sections: Section[] }) {
+  eyebrow, title, lede, sections, backHref = '/#chuyen-de', backLabel = 'Chuyên đề', pager,
+}: {
+  eyebrow: string; title: string; lede: string; sections: Section[]
+  backHref?: string; backLabel?: string; pager?: Pager
+}) {
   return (
     <article className="container article">
-      <Link href="/#chuyen-de" className="back">← Chuyên đề</Link>
+      <Link href={backHref} className="back">← {backLabel}</Link>
       <header className="article-head">
         <div className="eyebrow">{eyebrow}</div>
         <h1>{title}</h1>
@@ -28,7 +33,13 @@ export default function Article({
         </section>
       ))}
 
-      <Link href="/#chuyen-de" className="back">← Về trang chủ</Link>
+      {pager && (
+        <div className="pager">
+          {pager.prev ? <Link href={pager.prev.href}>← {pager.prev.label}</Link> : <span />}
+          {pager.next ? <Link href={pager.next.href}>{pager.next.label} →</Link> : <span />}
+        </div>
+      )}
+      <Link href={backHref} className="back">← Về {backLabel}</Link>
     </article>
   )
 }

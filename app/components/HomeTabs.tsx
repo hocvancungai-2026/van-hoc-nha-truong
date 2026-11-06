@@ -27,6 +27,16 @@ const chuyenDe = [
   },
 ]
 
+const luyenDe = [
+  {
+    href: '/luyen-de/nghe-thuat-tho-ca-hsg',
+    tag: 'Đề HSG · Nghệ thuật thơ ca',
+    title: 'Tuyển tập 5 đề thi HSG: Nghệ thuật thơ ca',
+    excerpt: 'Năm đề nghị luận lí luận thơ ca, mỗi đề có dàn ý chi tiết 5 bước và bài văn mẫu hoàn chỉnh: Vội vàng, Tây Tiến, Tràng giang, Đây thôn Vĩ Dạ, Xuân Diệu – Hàn Mặc Tử…',
+    meta: '5 đề',
+  },
+]
+
 function Empty({ text }: { text: string }) {
   return (
     <div className="empty">
@@ -85,7 +95,18 @@ export default function HomeTabs() {
           ))}
         </div>
       )}
-      {active === 'luyen-de' && <Empty text="Các đề luyện tập đang được biên soạn và sẽ sớm có mặt tại đây." />}
+      {active === 'luyen-de' && (
+        <div className="card-grid">
+          {luyenDe.map(c => (
+            <Link key={c.href} href={c.href} className="card">
+              <div className="card-tag">{c.tag}</div>
+              <h3>{c.title}</h3>
+              <p>{c.excerpt}</p>
+              <div className="card-meta">{c.meta} · Vào luyện đề →</div>
+            </Link>
+          ))}
+        </div>
+      )}
       {active === 'tham-khao' && <Empty text="Kho tài liệu tham khảo đang được cập nhật." />}
     </section>
   )
