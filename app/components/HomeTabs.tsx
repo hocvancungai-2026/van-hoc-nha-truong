@@ -25,6 +25,13 @@ const chuyenDe = [
     excerpt: 'Các giai đoạn phát triển, văn học chữ Hán và chữ Nôm, cảm hứng yêu nước – nhân đạo, thi pháp trung đại và định hướng làm bài cho học sinh giỏi.',
     meta: '6 phần',
   },
+  {
+    href: '/chuyen-de/van-hoc-giao-thoi',
+    tag: 'Văn học giao thời',
+    title: 'Văn học giao thời Việt Nam',
+    excerpt: 'Bối cảnh lịch sử – xã hội, sự thức tỉnh của cái “Tôi” cá nhân, cách tân thi pháp của Thơ mới và chất thơ – tinh thần nhân đạo trong văn xuôi hiện đại.',
+    meta: '5 phần',
+  },
 ]
 
 const luyenDe = [
