@@ -139,3 +139,14 @@ a { color: inherit; text-decoration: none; }
 .verse { margin: 12px 0 20px; padding: 6px 0 6px 22px; border-left: 3px solid var(--gold); }
 .verse p { margin-bottom: 2px; line-height: 1.75; }
 .prose ul li { line-height: 1.75; }
+
+/* Sơ đồ / bảng tóm tắt dạng khung */
+.prose table.works.diagram { min-width: 560px; border: 1px solid var(--border); }
+.prose table.works.diagram th[colspan] { text-align: center; background: var(--accent); color: #fff; font-family: var(--serif); font-size: 15px; letter-spacing: .06em; text-transform: uppercase; padding: 12px; border-bottom: none; }
+.prose table.works.diagram tr.sub th { text-align: center; background: var(--gold-pale); color: var(--accent); font-family: var(--serif); font-size: 15px; text-transform: uppercase; border-bottom: 2px solid var(--gold); }
+.prose table.works.diagram th small { display: block; margin-top: 2px; font-family: var(--sans); font-size: 12px; font-weight: 400; text-transform: none; letter-spacing: 0; color: var(--ink-soft, #6b6358); }
+.prose table.works.diagram th[scope="row"] { width: 22%; text-align: left; background: var(--gold-pale); color: var(--accent); font-family: var(--serif); font-size: 15px; border-bottom: 1px solid var(--border-light); border-right: 2px solid var(--gold); vertical-align: top; padding: 12px; }
+.prose table.works.diagram td { border-right: 1px solid var(--border-light); padding: 12px 14px; }
+.prose table.works.diagram td:last-child { border-right: none; }
+.prose table.works.diagram td ul { margin: 0; padding-left: 18px; }
+.prose table.works.diagram td li { margin-bottom: 6px; }
