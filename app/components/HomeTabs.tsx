@@ -32,6 +32,13 @@ const chuyenDe = [
     excerpt: 'Bối cảnh lịch sử – xã hội, sự thức tỉnh của cái “Tôi” cá nhân, cách tân thi pháp của Thơ mới và chất thơ – tinh thần nhân đạo trong văn xuôi hiện đại.',
     meta: '5 phần',
   },
+  {
+    href: '/chuyen-de/bao-cao-van-hoc-giao-thoi',
+    tag: 'Báo cáo · Văn học giao thời',
+    title: 'Văn học giao thời Việt Nam (1900 – 1930): nền tảng lý luận và chuyển dịch thi pháp',
+    excerpt: 'Khái niệm văn học giao thời, bối cảnh và động lực chuyển dịch, thi pháp từ quy phạm trung đại đến khát khao bản ngã; Tản Đà, Tố Tâm và hướng tiếp cận cho học sinh giỏi.',
+    meta: '7 phần · có nguồn trích dẫn',
+  },
 ]
 
 const luyenDe = [
