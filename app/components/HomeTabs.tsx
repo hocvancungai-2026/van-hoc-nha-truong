@@ -32,6 +32,13 @@ const chuyenDe = [
     excerpt: 'Khái niệm văn học giao thời, bối cảnh và động lực chuyển dịch, thi pháp từ quy phạm trung đại đến khát khao bản ngã; Tản Đà, Tố Tâm và hướng tiếp cận cho học sinh giỏi.',
     meta: '7 phần · có nguồn trích dẫn',
   },
+  {
+    href: '/chuyen-de/van-hoc-lang-man-1930-1945',
+    tag: 'Văn học lãng mạn · HSG',
+    title: 'Văn học lãng mạn Việt Nam (1930 – 1945): bản chất, thi pháp và các đỉnh cao nghệ thuật',
+    excerpt: 'Thơ mới, Xuân Diệu, Hàn Mặc Tử, Huy Cận, Nguyễn Bính; Tự lực văn đoàn, Thạch Lam, Nguyễn Tuân; đặc trưng thi pháp và đề thi HSG kèm dàn ý.',
+    meta: '6 phần',
+  },
 ]
 
 const luyenDe = [
