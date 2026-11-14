@@ -87,6 +87,13 @@ const thamKhao = [
     excerpt: 'Bài thơ của Chu Hồng Tiến và đoạn bài tập HSG của học sinh lớp 11: cảm xúc được thẩm mĩ hóa qua hồi tưởng, lắng đọng và hình tượng hóa.',
     meta: 'Thơ · Bài làm học sinh',
   },
+  {
+    href: '/tham-khao/chum-tho-binh-nguyen-trang',
+    tag: 'Thơ · Bình Nguyên Trang',
+    title: 'Mầm chữ mọc từ trong gió bụi',
+    excerpt: 'Chùm năm bài thơ của Bình Nguyên Trang: Bỗng dưng em nhớ, Con chim và ngọn núi thiêng, Mùa thu, Gửi vì sao, Sinh ra.',
+    meta: 'Chùm thơ · 5 bài · Nguồn Vanvn',
+  },
 ]
 
 export default function HomeTabs() {
