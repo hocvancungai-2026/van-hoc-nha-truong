@@ -39,6 +39,13 @@ const chuyenDe = [
     excerpt: 'Thơ mới, Xuân Diệu, Hàn Mặc Tử, Huy Cận, Nguyễn Bính; Tự lực văn đoàn, Thạch Lam, Nguyễn Tuân; đặc trưng thi pháp và đề thi HSG kèm dàn ý.',
     meta: '6 phần',
   },
+  {
+    href: '/chuyen-de/van-hoc-hien-thuc-phe-phan-1930-1945',
+    tag: 'Văn học hiện thực phê phán · HSG',
+    title: 'Văn học hiện thực phê phán Việt Nam (1930 – 1945): tiến trình, thi pháp và di sản',
+    excerpt: 'Tiền đề xã hội, ba chặng vận động, các cuộc tranh luận lý luận; phóng sự, truyện ngắn, tiểu thuyết; Nguyễn Công Hoan, Ngô Tất Tố, Vũ Trọng Phụng, Nguyên Hồng, Nam Cao.',
+    meta: '8 phần · 3 bảng tổng hợp',
+  },
 ]
 
 const luyenDe = [
