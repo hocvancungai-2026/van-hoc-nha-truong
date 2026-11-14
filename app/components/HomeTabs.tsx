@@ -75,8 +75,8 @@ const thamKhao = [
   },
   {
     href: '/tham-khao/quyen-khong-dai-dien',
-    tag: 'Bài phát biểu · Văn chương và thế giới',
-    title: 'Quyền không đại diện',
+    tag: 'Bài phát biểu · Nguyễn Khắc Ngân Vi',
+    title: 'Một ngôn ngữ nhỏ có thể chứa một thế giới lớn đến đâu?',
     excerpt: 'Tính thuần túy của văn chương nằm ở đâu? Nhà văn của một ngôn ngữ nhỏ và quyền được đọc như một nhà văn, không phải như người đại diện cho một quốc gia.',
     meta: 'Bài phát biểu',
   },
