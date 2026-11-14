@@ -94,6 +94,13 @@ const thamKhao = [
     excerpt: 'Chùm năm bài thơ của Bình Nguyên Trang: Bỗng dưng em nhớ, Con chim và ngọn núi thiêng, Mùa thu, Gửi vì sao, Sinh ra.',
     meta: 'Chùm thơ · 5 bài · Nguồn Vanvn',
   },
+  {
+    href: '/tham-khao/tho-ho-minh-tam-trat-tu-cua-cai-bat-ngo',
+    tag: 'Phê bình thơ · Đinh Thanh Huyền',
+    title: 'Thơ Hồ Minh Tâm: Trật tự của cái bất ngờ',
+    excerpt: 'Đọc thơ Hồ Minh Tâm như một logic nội tại chặt chẽ: ý nghĩa nằm ở toàn văn bản, và người đọc bị cuốn vào vòng lặp của bài thơ (qua “Buổi chiều lẩn quẩn”, “Ngồi bên mưa”, “Giữa không & một”).',
+    meta: 'Bài phê bình · Tạp chí Nhật Lệ',
+  },
 ]
 
 export default function HomeTabs() {
