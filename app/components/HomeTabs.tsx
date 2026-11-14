@@ -150,6 +150,13 @@ const thamKhao = [
     excerpt: 'Nguyễn Hưng Quốc đọc thơ Bùi Giáng qua sự hoài nghi ngôn ngữ và những “xóa nhòa” các đường biên, đặt bên cạnh “Tiểu sử tự ghi” của chính nhà thơ.',
     meta: 'Bài phê bình · Tiểu sử tự ghi · 2 phần',
   },
+  {
+    href: '/tham-khao/bui-giang-tho-phoi-giua-nang',
+    tag: 'Phê bình thơ · Huỳnh Như Phương',
+    title: 'Bùi Giáng: thơ phơi giữa nắng',
+    excerpt: 'Sáu đặc điểm làm nên sự độc đáo của thơ và người Bùi Giáng: quê – phố, cổ – kim, sách vở – cuộc đời, thực – mộng, nghĩ – viết – chơi, tục – thanh.',
+    meta: 'Tham luận · Tọa đàm 2013',
+  },
 ]
 
 export default function HomeTabs() {
