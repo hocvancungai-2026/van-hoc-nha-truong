@@ -101,6 +101,13 @@ const thamKhao = [
     excerpt: 'Đọc thơ Hồ Minh Tâm như một logic nội tại chặt chẽ: ý nghĩa nằm ở toàn văn bản, và người đọc bị cuốn vào vòng lặp của bài thơ (qua “Buổi chiều lẩn quẩn”, “Ngồi bên mưa”, “Giữa không & một”).',
     meta: 'Bài phê bình · Tạp chí Nhật Lệ',
   },
+  {
+    href: '/tham-khao/chum-tho-mat-ga-le-vinh-tai',
+    tag: 'Thơ và phê bình · Lê Vĩnh Tài · Đinh Thanh Huyền',
+    title: 'Đinh Thanh Huyền và chùm thơ mất gà của Lê Vĩnh Tài',
+    excerpt: 'Bốn bài “Thử làm bài thơ mất gà” của Lê Vĩnh Tài và bài “Game thủ” của Đinh Thanh Huyền: đọc thơ như một cuộc chơi nhiều vòng, với nhại, giễu và câu đố.',
+    meta: 'Chùm thơ · Bài phê bình · 2 phần',
+  },
 ]
 
 export default function HomeTabs() {
