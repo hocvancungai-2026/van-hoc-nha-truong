@@ -115,6 +115,13 @@ const thamKhao = [
     excerpt: 'Bài thơ tưởng niệm người lính và nỗi đau của người mẹ qua bầy hươu bị săn đuổi, sông Thạch Hãn, Cổ Thành Quảng Trị, mưa phùn Trường Sơn; kèm lời giới thiệu.',
     meta: 'Thơ · 4 phần',
   },
+  {
+    href: '/tham-khao/hinh-anh-lam-nen-linh-hon-bai-tho',
+    tag: 'Lí luận thơ · Nguyễn Việt Chiến',
+    title: 'Hình ảnh làm nên linh hồn bài thơ',
+    excerpt: 'Vì sao hình ảnh là nơi cảm xúc được “nhìn thấy”? Nguyễn Việt Chiến bàn về sức gợi, tứ thơ và phong cách qua “Sóng”, “Thuyền và biển” (Xuân Quỳnh) và “Tiếng Việt” (Lưu Quang Vũ).',
+    meta: 'Bài viết · Báo Văn nghệ Công an',
+  },
 ]
 
 export default function HomeTabs() {
