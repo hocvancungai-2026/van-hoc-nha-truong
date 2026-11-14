@@ -136,6 +136,13 @@ const thamKhao = [
     excerpt: 'Bài viết của Nguyễn Minh Châu (1987) về văn học minh họa, nỗi sợ của người cầm bút, yêu cầu sáng tạo và câu hỏi “tác phẩm lớn là gì?”.',
     meta: 'Tiểu luận · Báo Văn nghệ 1987',
   },
+  {
+    href: '/tham-khao/hay-tra-tho-ve-cho-bang-ba-lan',
+    tag: 'Văn học và đời sống · Hoàng Chí Quang',
+    title: 'Hãy trả thơ về cho Bàng Bá Lân!',
+    excerpt: '“Hỡi cô tát nước bên đàng / Sao cô lại múc trăng vàng đổ đi”: câu chuyện về tác giả của hai câu thơ tưởng là ca dao và vì sao phải là “múc trăng vàng”.',
+    meta: 'Bài viết · Báo Tiền Phong',
+  },
 ]
 
 export default function HomeTabs() {
