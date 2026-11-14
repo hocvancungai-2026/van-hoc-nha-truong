@@ -80,6 +80,13 @@ const thamKhao = [
     excerpt: 'Tính thuần túy của văn chương nằm ở đâu? Nhà văn của một ngôn ngữ nhỏ và quyền được đọc như một nhà văn, không phải như người đại diện cho một quốc gia.',
     meta: 'Bài phát biểu',
   },
+  {
+    href: '/tham-khao/dem-o-bien-chu-hong-tien',
+    tag: 'Thơ · Chu Hồng Tiến',
+    title: 'Đêm ở biển',
+    excerpt: 'Bài thơ của Chu Hồng Tiến và đoạn bài tập HSG của học sinh lớp 11: cảm xúc được thẩm mĩ hóa qua hồi tưởng, lắng đọng và hình tượng hóa.',
+    meta: 'Thơ · Bài làm học sinh',
+  },
 ]
 
 export default function HomeTabs() {
