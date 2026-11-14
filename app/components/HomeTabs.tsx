@@ -129,6 +129,13 @@ const thamKhao = [
     excerpt: 'Cảm xúc là “mầm sống” của thơ trữ tình; từ đó đọc chất suy tưởng trong lục bát Nguyễn Duy qua “Ngồi buồn nhớ mẹ ta xưa” và “Xẩm ngọng”.',
     meta: 'Bài viết · Báo Văn nghệ Công an',
   },
+  {
+    href: '/tham-khao/loi-ai-dieu-cho-mot-giai-doan-van-nghe-minh-hoa',
+    tag: 'Tiểu luận · Nguyễn Minh Châu',
+    title: 'Hãy đọc lời ai điếu cho một giai đoạn văn nghệ minh họa',
+    excerpt: 'Bài viết của Nguyễn Minh Châu (1987) về văn học minh họa, nỗi sợ của người cầm bút, yêu cầu sáng tạo và câu hỏi “tác phẩm lớn là gì?”.',
+    meta: 'Tiểu luận · Báo Văn nghệ 1987',
+  },
 ]
 
 export default function HomeTabs() {
