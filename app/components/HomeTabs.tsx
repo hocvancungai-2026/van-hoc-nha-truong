@@ -157,6 +157,13 @@ const thamKhao = [
     excerpt: 'Sáu đặc điểm làm nên sự độc đáo của thơ và người Bùi Giáng: quê – phố, cổ – kim, sách vở – cuộc đời, thực – mộng, nghĩ – viết – chơi, tục – thanh.',
     meta: 'Tham luận · Tọa đàm 2013',
   },
+  {
+    href: '/tham-khao/luu-quang-vu-xuan-quynh-mua-he-dinh-menh',
+    tag: 'Hồi ức và thơ · Lưu Quang Định',
+    title: 'Lưu Quang Vũ – Xuân Quỳnh và mùa hè định mệnh',
+    excerpt: 'Mùa hè năm 1988 qua lời kể của người em ruột, kèm hai bài thơ cuối cùng: “Thư viết cho Quỳnh trên máy bay” (Lưu Quang Vũ) và “Thời gian trắng” (Xuân Quỳnh).',
+    meta: 'Hồi ức · 2 bài thơ · 2 phần',
+  },
 ]
 
 export default function HomeTabs() {
