@@ -73,6 +73,13 @@ const thamKhao = [
     excerpt: 'Du Tử Lê đọc thơ Trần Lê Sơn Ý, nhà thơ trẻ sinh năm 1977: những câu thơ “rất trong”, “rất tươi” và những “công-án-thơ” mở ra nhiều tầng liên tưởng.',
     meta: 'Bài phê bình',
   },
+  {
+    href: '/tham-khao/quyen-khong-dai-dien',
+    tag: 'Bài phát biểu · Văn chương và thế giới',
+    title: 'Quyền không đại diện',
+    excerpt: 'Tính thuần túy của văn chương nằm ở đâu? Nhà văn của một ngôn ngữ nhỏ và quyền được đọc như một nhà văn, không phải như người đại diện cho một quốc gia.',
+    meta: 'Bài phát biểu',
+  },
 ]
 
 export default function HomeTabs() {
