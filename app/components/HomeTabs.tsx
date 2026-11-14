@@ -143,6 +143,13 @@ const thamKhao = [
     excerpt: '“Hỡi cô tát nước bên đàng / Sao cô lại múc trăng vàng đổ đi”: câu chuyện về tác giả của hai câu thơ tưởng là ca dao và vì sao phải là “múc trăng vàng”.',
     meta: 'Bài viết · Báo Tiền Phong',
   },
+  {
+    href: '/tham-khao/truong-hop-bui-giang',
+    tag: 'Phê bình thơ · Nguyễn Hưng Quốc · Bùi Giáng',
+    title: 'Trường hợp Bùi Giáng',
+    excerpt: 'Nguyễn Hưng Quốc đọc thơ Bùi Giáng qua sự hoài nghi ngôn ngữ và những “xóa nhòa” các đường biên, đặt bên cạnh “Tiểu sử tự ghi” của chính nhà thơ.',
+    meta: 'Bài phê bình · Tiểu sử tự ghi · 2 phần',
+  },
 ]
 
 export default function HomeTabs() {
