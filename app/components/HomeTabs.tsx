@@ -108,6 +108,13 @@ const thamKhao = [
     excerpt: 'Bốn bài “Thử làm bài thơ mất gà” của Lê Vĩnh Tài và bài “Game thủ” của Đinh Thanh Huyền: đọc thơ như một cuộc chơi nhiều vòng, với nhại, giễu và câu đố.',
     meta: 'Chùm thơ · Bài phê bình · 2 phần',
   },
+  {
+    href: '/tham-khao/thoi-dat-nuoc-gian-lao',
+    tag: 'Thơ tự do · Nguyễn Việt Chiến',
+    title: 'Thời đất nước gian lao',
+    excerpt: 'Bài thơ tưởng niệm người lính và nỗi đau của người mẹ qua bầy hươu bị săn đuổi, sông Thạch Hãn, Cổ Thành Quảng Trị, mưa phùn Trường Sơn; kèm lời giới thiệu.',
+    meta: 'Thơ · 4 phần',
+  },
 ]
 
 export default function HomeTabs() {
