@@ -122,6 +122,13 @@ const thamKhao = [
     excerpt: 'Vì sao hình ảnh là nơi cảm xúc được “nhìn thấy”? Nguyễn Việt Chiến bàn về sức gợi, tứ thơ và phong cách qua “Sóng”, “Thuyền và biển” (Xuân Quỳnh) và “Tiếng Việt” (Lưu Quang Vũ).',
     meta: 'Bài viết · Báo Văn nghệ Công an',
   },
+  {
+    href: '/tham-khao/cam-xuc-tao-nen-chat-tru-tinh-cua-tho',
+    tag: 'Lí luận thơ · Nguyễn Việt Chiến',
+    title: 'Cảm xúc tạo nên chất trữ tình của thơ',
+    excerpt: 'Cảm xúc là “mầm sống” của thơ trữ tình; từ đó đọc chất suy tưởng trong lục bát Nguyễn Duy qua “Ngồi buồn nhớ mẹ ta xưa” và “Xẩm ngọng”.',
+    meta: 'Bài viết · Báo Văn nghệ Công an',
+  },
 ]
 
 export default function HomeTabs() {
