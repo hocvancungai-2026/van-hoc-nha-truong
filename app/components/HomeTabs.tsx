@@ -46,6 +46,13 @@ const chuyenDe = [
     excerpt: 'Tiền đề xã hội, ba chặng vận động, các cuộc tranh luận lý luận; phóng sự, truyện ngắn, tiểu thuyết; Nguyễn Công Hoan, Ngô Tất Tố, Vũ Trọng Phụng, Nguyên Hồng, Nam Cao.',
     meta: '8 phần · 3 bảng tổng hợp',
   },
+  {
+    href: '/chuyen-de/hinh-tuong-dat-nuoc-1945-1975',
+    tag: 'Văn học 1945 – 1975 · HSG',
+    title: 'Hình tượng Đất nước trong văn học Việt Nam giai đoạn 1945 – 1975: từ mĩ học sử thi đến cái nhìn đa thanh',
+    excerpt: 'Thiết chế văn nghệ và cơ chế sử thi hóa; ba chặng vận động của hình tượng Đất nước; văn học đô thị miền Nam; phản tỉnh hậu chiến và góc nhìn Việt Nam học quốc tế.',
+    meta: '5 phần · 2 bảng tổng hợp',
+  },
 ]
 
 const luyenDe = [
