@@ -53,6 +53,13 @@ const chuyenDe = [
     excerpt: 'Thiết chế văn nghệ và cơ chế sử thi hóa; ba chặng vận động của hình tượng Đất nước; văn học đô thị miền Nam; phản tỉnh hậu chiến và góc nhìn Việt Nam học quốc tế.',
     meta: '5 phần · 2 bảng tổng hợp',
   },
+  {
+    href: '/chuyen-de/hinh-tuong-nguoi-linh-1945-1975',
+    tag: 'Văn học 1945 – 1975 · HSG',
+    title: 'Hình tượng người lính trong văn học Việt Nam giai đoạn 1945 – 1975: từ tượng đài sử thi đến sự soi chiếu phê bình hiện đại',
+    excerpt: 'Nền tảng mĩ học và cơ chế kiến tạo nhân vật trung tâm; sự vận động qua hai cuộc kháng chiến; người lính trong văn học đô thị miền Nam; giải thiêng sau 1975 và Đổi mới.',
+    meta: '4 phần · 1 bảng tổng hợp',
+  },
 ]
 
 const luyenDe = [
