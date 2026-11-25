@@ -178,6 +178,13 @@ const thamKhao = [
     excerpt: 'Mùa hè năm 1988 qua lời kể của người em ruột, kèm hai bài thơ cuối cùng: “Thư viết cho Quỳnh trên máy bay” (Lưu Quang Vũ) và “Thời gian trắng” (Xuân Quỳnh).',
     meta: 'Hồi ức · 2 bài thơ · 2 phần',
   },
+  {
+    href: '/tham-khao/yeu-to-tu-su-trong-tho-tru-tinh',
+    tag: 'Lí luận văn học · Truyện thơ',
+    title: 'Yếu tố tự sự trong thơ trữ tình và thể loại truyện thơ',
+    excerpt: 'Tự sự và trữ tình giao thoa thế nào trong thơ; đặc trưng của truyện thơ dân gian và truyện thơ Nôm; các bước phân tích một văn bản truyện thơ.',
+    meta: 'Tài liệu tham khảo · 6 phần',
+  },
 ]
 
 export default function HomeTabs() {
