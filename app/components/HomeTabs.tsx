@@ -60,6 +60,13 @@ const chuyenDe = [
     excerpt: 'Nền tảng mĩ học và cơ chế kiến tạo nhân vật trung tâm; sự vận động qua hai cuộc kháng chiến; người lính trong văn học đô thị miền Nam; giải thiêng sau 1975 và Đổi mới.',
     meta: '4 phần · 1 bảng tổng hợp',
   },
+  {
+    href: '/chuyen-de/su-chuyen-doi-su-thi-sang-doi-tu-the-su',
+    tag: 'Văn học Đổi mới · HSG',
+    title: 'Sự chuyển đổi từ khuynh hướng sử thi và cảm hứng lãng mạn (1945 – 1975) sang khuynh hướng đời tư – thế sự thời kỳ Đổi mới',
+    excerpt: 'Đặc trưng hệ hình sử thi – lãng mạn, giai đoạn bản lề 1975–1985, bước ngoặt “cởi trói” 1986–1987 và diện mạo khuynh hướng đời tư – thế sự: phi sử thi hóa chiến tranh, thế sự nông thôn, cách tân thi pháp.',
+    meta: '3 phần · 1 bảng đối chiếu',
+  },
 ]
 
 const luyenDe = [
