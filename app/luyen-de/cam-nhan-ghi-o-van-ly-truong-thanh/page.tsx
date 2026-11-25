@@ -12,14 +12,14 @@ const esc = (s: string) => s.replace(/&/g, '&amp;').replace(/</g, '&lt;').replac
 const poemHtml =
   baiTho.length > 0
     ? `<div class="verse">${baiTho.map(l => `<p>${l.trim() ? esc(l) : '&nbsp;'}</p>`).join('')}</div>`
-    : `<p><em>Mây xếp lên vai từng tảng đá nặng
-nhòe mắt cát
-thở đầy ngực cát
-Vạn lý Trường Thành còn xây dở?
-Trên không tiếng hoạn quan truyền chỉ
-Bắt được kẻ nào vừa vác đá vừa làm thơ
-đánh hộc máu mồm
-Khâm thử!
+    : `<p><em>Mây xếp lên vai từng tảng đá nặng <br>
+nhòe mắt cát<br>
+thở đầy ngực cát<br>
+Vạn lý Trường Thành còn xây dở? <br>
+Trên không tiếng hoạn quan truyền chỉ <br>
+Bắt được kẻ nào vừa vác đá vừa làm thơ <br>
+đánh hộc máu mồm <br>
+Khâm thử!<br>
 Ngước lên gặp một khuôn mặt bì bì
 tay lạnh, mắt chì, giọng mỡ
 Mái Phong hỏa đài(*) màu huyết dụ
