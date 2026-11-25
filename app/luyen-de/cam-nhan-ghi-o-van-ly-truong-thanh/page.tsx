@@ -12,7 +12,31 @@ const esc = (s: string) => s.replace(/&/g, '&amp;').replace(/</g, '&lt;').replac
 const poemHtml =
   baiTho.length > 0
     ? `<div class="verse">${baiTho.map(l => `<p>${l.trim() ? esc(l) : '&nbsp;'}</p>`).join('')}</div>`
-    : `<p><em>Văn bản bài thơ do giáo viên phát kèm trong lớp.</em></p>`
+    : `<p><em>Mây xếp lên vai từng tảng đá nặng
+nhòe mắt cát
+thở đầy ngực cát
+Vạn lý Trường Thành còn xây dở?
+Trên không tiếng hoạn quan truyền chỉ
+Bắt được kẻ nào vừa vác đá vừa làm thơ
+đánh hộc máu mồm
+Khâm thử!
+Ngước lên gặp một khuôn mặt bì bì
+tay lạnh, mắt chì, giọng mỡ
+Mái Phong hỏa đài(*) màu huyết dụ
+hình thanh long đao dính máu đang kề cổ
+Còng lưng đẩy nắng đi
+Chồn chân đẩy gió đi
+Miễn sao gần được bông hoa
+đang mởn mơ trong gió lớn.
+Tâu Hoàng thượng/ thưa ngài/ báo cáo đồng chí....
+Bỉ chức/ thảo dân/ em…
+sẽ làm trọn bổn phận
+Đây là đỉnh trời
+hay đáy vực sâu
+chỉ thấy trên lưng lằn roi bỏng rát
+Mồ hôi du khách trên đá xám
+nở thành hoa phù dung.
+</em></p>`
 
 const sections = [
   {
