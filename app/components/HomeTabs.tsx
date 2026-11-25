@@ -71,6 +71,13 @@ const chuyenDe = [
 
 const luyenDe = [
   {
+    href: '/luyen-de/cam-nhan-ghi-o-van-ly-truong-thanh',
+    tag: 'Đề luyện tập · Thơ hiện đại',
+    title: 'Cảm nhận về bài thơ “Ghi ở Vạn Lý Trường Thành” (Mai Văn Phấn)',
+    excerpt: 'Đề đọc – viết dành cho học sinh: cảm nhận về một bài thơ tự do nhiều tầng nghĩa, nơi lịch sử, quyền lực và thân phận con người cùng hiện lên.',
+    meta: '1 đề',
+  },
+  {
     href: '/luyen-de/nghe-thuat-tho-ca-hsg',
     tag: 'Đề HSG · Nghệ thuật thơ ca',
     title: 'Tuyển tập 5 đề thi HSG: Nghệ thuật thơ ca',
